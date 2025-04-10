@@ -1,0 +1,230 @@
+/* Basic Styles */
+body 
+{
+    font-family: Arial, sans-serif;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    
+  }
+
+  
+  header 
+  {
+    background-color: #f0f0f0;
+    padding: 20px;
+  }
+  
+  .navigation
+  {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .navigation button 
+  {
+    background-color:orange;
+    border: 5px;;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .navigation button a 
+  {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+  }
+  .navigation button a :hover{
+    color:blue;
+  }
+  
+  main 
+  {
+    padding: 20px;
+  }
+  
+  section 
+  {
+    margin-bottom: 20px;
+  }
+  
+  h2 
+  {
+    margin-bottom: 10px;
+  }
+  
+  p 
+  {
+    line-height: 1.5;
+  }
+  
+  /* Hero Section Styles */
+  .hero 
+  {
+    text-align: center;
+    margin-top: 355px;
+  }
+  
+  .hero h1 
+  {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+  }
+  
+  .hero h2 
+  {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+  }
+  
+  .hero a 
+  {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  /* About Us Styles */
+  .about-us p 
+  {
+    margin-bottom: 15px;
+  }
+  
+  .about-us .team 
+  {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  
+  .about-us p {
+    margin-bottom: 15px; }
+  
+  .about-us .team {
+    display: flexbox; /* Use flexbox for the team member containers */
+    flex-wrap: wrap; /* Allow the team member containers to wrap to the next line */
+    justify-content: space-between; /* Distribute the team member containers evenly */
+  }
+  
+  .about-us .team img {
+    width: 200px; /* Set the width of the team member images */
+    height: 200px; /* Set the height of the team member images */
+    border-radius: 50%; /* Make the team member images circular */
+    object-fit: cover; /* Ensure the images maintain their aspect ratio while filling the container */
+    margin-bottom: 10px; /* Add some spacing below the team member images */
+  }
+  
+  /* Sample Events Styles */
+  .sample-events 
+  {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .event-card 
+  {
+    width: 20%;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+  }
+  
+  .event-card img 
+  {
+    width: 200px;
+    height: 300px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+  }
+
+  
+  
+  /* Scheduled Events Styles */
+  .scheduled-events table 
+  {
+    width: 100%;
+    border-collapse: collapse;
+    
+  }
+  
+  .scheduled-events th, td 
+  {
+    text-align: left;
+    padding: 15px;
+    border: 1px solid #979595;
+  }
+  
+  /* Order Form Styles */
+  .order-form 
+  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .order-form form 
+  {
+    width: 50%;
+  }
+  
+  .form-group 
+  {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label 
+  {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input,
+  .form-group textarea 
+  {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  .form-group textarea 
+  {
+    height: 100px;
+  }
+  
+  .form-group button 
+  {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  @media(max-width:760px)  {
+    
+    
+  }
+  
+  /* Footer Styles */
+  footer 
+  {
+    text-align: center;
+    padding: 10px;
+    background-color: #f0f0f0;
+    margin-top:200px ;
+    font-style: italic;
+  }
+  
+ 
+  

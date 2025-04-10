@@ -1,0 +1,83 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>J&JD Events - Order Form</title>
+  <link rel="stylesheet" href="style Deadly Deadly.css">
+</head>
+<body>
+  <header>
+    <nav class="navigation">
+      <button class="b-home"><a href="j&jdhome.html">J&JD HOME</a></button>
+      <button class="b-home"> <a href="aboutj&jd.html">About J&JD</a></button>
+      <button class="b-home"><a href="sampleevents.html">Sample Events</a></button>
+      <button class="b-home"><a href="scheduledevents.html">Scheduled Events</a></button>
+      <button class="b-home"><a href="orderform.html">Order Form</a></button>
+      <button class="b-home"><a href="contact_us.html">Contact Us</a></button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="order-form">
+      <h2>Order Your Event Today!</h2>
+      <form action="" method="post"> 
+        <div class="form-group">
+          <label for="name" >Your Name:</label>
+          <input type="text" id="name" name="name" required >
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email Address:</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+
+        <div class="form-group">
+          <label for="event_type">Event Type:</label>
+          <select id="event_type" name="event_type">
+            <option value="">Select Event Type</option> 
+            <option value="birthday">Birthday Party</option>
+            <option value="wedding">Wedding</option>
+            <option value="corporate">Corporate Event</option>
+            <option value="Graduation">Graduation</option>
+            <option value="Homecoming">Homecoming</option>
+            <option value="Babyshower">Babyshower</option>
+            <option value="End of sem">End of sem</option>
+            <option value="Prom Night">Prom Night</option>
+            <option value="other">Other</option>
+          </select>
+          
+          
+        </div>
+
+        <div class="form-group">
+          <label for="event_date">Event Date:</label>
+          <input type="date" id="event_date"  required>
+        </div>
+
+        <div class="form-group">
+          <label for="budget">Budget:</label>
+          <input type="number" id="budget" name="budget">
+        </div>
+
+        <div class="form-group">
+          <label for="expectations">Event Expectations:</label>
+          <textarea id="expectations" name="expectations" rows="4" placeholder="Make any special requests and we'll make it happen"></textarea>
+        </div>
+        <label id="male">Male</label>
+        <input type="radio" name="Male"><br>
+        <label id="Female">Female</label>
+        <input type="radio" name="Male"><br>
+        <div class="form-group">
+          <button><a href="orderform.html"></a>Submit Request</button>
+        </div>
+
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&COPY;&lt;&lt;J&JD Events&gt;&gt;</p>
+  </footer>
+</body>
+</html>
